@@ -1,8 +1,0 @@
-{
-  "navigationBarTitleText": "订单详情",
-  "enablePullDownRefresh": false,
-  "usingComponents": {
-    "u-line": "/uni_modules/uview-ui/components/u-line/u-line",
-    "u-modal": "/uni_modules/uview-ui/components/u-modal/u-modal"
-  }
-}

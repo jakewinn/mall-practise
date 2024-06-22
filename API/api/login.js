@@ -196,4 +196,8 @@ router.get('/checkLogin', (req, res) => {
     return tw(res, 200, '登录中')
 })
 
+router.get('/test', (req, res) => {
+    return tw(res, 200, '测试中.....')
+})
+
 module.exports = router;

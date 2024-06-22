@@ -24,7 +24,7 @@ const i18n = new VueI18n({
 Vue.prototype.$echarts = window.echarts
 
 
-Vue.prototype.$api = 'http://127.0.0.1:3200';
+Vue.prototype.$api = 'http://localhost:3200';
 
 //使用钩子函数对路由进行权限跳转
 router.beforeEach((to, from, next) => {

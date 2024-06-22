@@ -26,7 +26,8 @@ export function createApp() {
 import uView from '@/uni_modules/uview-ui'
 Vue.use(uView)
 
-const $url = 'http://192.168.0.109:3200' //后端地址
+//const $url = 'http://192.168.0.109:3200' //后端地址
+const $url = 'http://localhost:3200' //后端地址
 
 Vue.prototype.$merchant_id = '1********9' // 商户号，用来确认收货
 
